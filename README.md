@@ -1,7 +1,7 @@
 # Medical-clinic-management
 
 
-**Tataru George-Cristian ** 
+**Tataru George-Cristian** 
 
 **Gestiune consultatii la o clinica medicala** 
 
