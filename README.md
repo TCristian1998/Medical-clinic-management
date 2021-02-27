@@ -1,4 +1,7 @@
-# Medical-clinic-management**Tataru George-Cristian 334 AB** 
+# Medical-clinic-management
+
+
+**Tataru George-Cristian 334 AB** 
 
 **Gestiune consultatii la o clinica medicala** 
 
