@@ -1,0 +1,46 @@
+<?php
+include 'delete.php';
+
+session_start();
+
+
+
+#catches user/password submitted by html form
+
+
+if(isset($_POST['cod_numeric2']))
+{
+$cod_numeric = $_POST['cod_numeric2'];}
+
+
+#checks if the html form is filled
+if(empty($_POST['cod_numeric2'])){
+    echo "Fill all the fields!";
+}else{
+	
+	
+
+
+#searches for user and password in the database
+
+$query = "SELECT * FROM [tema1].[dbo].[Pacient] WHERE CNP='{$cod_numeric}'";
+$result = sqlsrv_query($conn, $query);  //$conn is your connection in 'connection.php'
+
+#checks if the search was made
+
+if(sqlsrv_has_rows($result) == 1){
+	 echo "111111111";
+     $query = "UPDATE Pacient SET NUME = 'IONEL' WHERE CNP =  '$cod_numeric'";
+	 
+	 sqlsrv_query($conn, $query);
+}
+else
+{
+	echo "Utilizator nu exista";
+}
+
+#checks if the search brought some row and if it is one only row
+		
+}
+
+?>
