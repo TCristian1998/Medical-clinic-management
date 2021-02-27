@@ -23,43 +23,43 @@ In tabela *Sectie* se memoreaza doar id-ul sectiei si numele sectiei. Intr-o sec
 
 In tabela *Echipamente* se introduc acele echipamente de importanta ridicata (nu echipament de unica folosinta ca mastile chirurgicale). Acestea sunt specifice unei anumite sali si se pot gasi intr-un anumit numar. 
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.001.jpeg)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.001.jpeg)
 
 **Constrangerile tabelelor** sunt urmatoarele:  Pentru *tabela Medic:* 
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.002.png)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.002.png)
 
 Pentru *tabela Pacient*: 
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.003.png)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.003.png)
 
 Pentru *tabela Medic/Pacient*:  
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.004.png)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.004.png)
 
 Pentru *tabela Sala*: 
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.005.png)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.005.png)
 
 Pentru *tabela Sectie*: 
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.006.png)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.006.png)
 
 Pentru *tabela Alergie*: 
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.007.png)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.007.png)
 
 Pentru *tabela Alergie/Pacient*: 
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.008.png)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.008.png)
 
 Pentru *tabela Asistent*: 
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.009.png)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.009.png)
 
 Pentru *tabela Echipamente*: 
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.010.png)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.010.png)
 
 Pentru ***conectarea la baza de date*** am folosit instructiunile: 
 
@@ -83,11 +83,11 @@ if( $conn ) {
 
 Am  sters  din  *tabela  Echipamente*  cu  urmatoarea  instructiune,  efectuand cautarea dupa numele echipamentului: 
 
-$query = "DELETE FROM Echipamente WHERE NumeEchipament =  '$nume'"; ![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.011.png)
+$query = "DELETE FROM Echipamente WHERE NumeEchipament =  '$nume'"; ![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.011.png)
 
 Am sters din *tabela Sectie* cu urmatoarea instructiune, efectuand cautarea dupa numele sectiei: 
 
-`     `$query = "DELETE FROM Sectie WHERE NumeSectie =  '$nume'"; ![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.012.png)
+`     `$query = "DELETE FROM Sectie WHERE NumeSectie =  '$nume'"; ![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.012.png)
 
 **Pentru *Insert:*** 
 \*
@@ -211,14 +211,14 @@ where m.Salariu > (select avg(a.salariu)
 
 `   `where m.IdMedic = a.IdAsistent)"; 
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.018.jpeg)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.018.jpeg)
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.019.jpeg)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.019.jpeg)
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.020.jpeg)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.020.jpeg)
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.021.jpeg)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.021.jpeg)
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.022.jpeg)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.022.jpeg)
 
-![](Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.023.jpeg)
+![](./poze_readme/Aspose.Words.186aa3f4-6af5-445b-a799-e3c382786c3f.023.jpeg)
